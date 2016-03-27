@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.brazz.jiajian11.view.GUI_widget.Topbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:title_size="16dp"
+        app:titile_text="标题"
+        app:left_text="左按钮"
+        app:left_text_size="12dp"
+        app:right_text="右按钮"
+        app:right_text_size="12dp"
+        android:background="#14446c"></com.example.brazz.jiajian11.view.GUI_widget.Topbar>
+    <com.example.brazz.jiajian11.view.GUI_widget.KechenBiao
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/kebiao"
+        android:background="@drawable/kebiao1"></com.example.brazz.jiajian11.view.GUI_widget.KechenBiao>
+
+</LinearLayout>
